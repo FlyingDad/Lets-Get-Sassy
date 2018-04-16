@@ -1,0 +1,6 @@
+.DS_Store
+*FINAL*/
+node_modules/
+data/
+*.log
+*sass-cache*
