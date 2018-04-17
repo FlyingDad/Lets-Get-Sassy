@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": ";;;;AAAA,IAAI;EACA,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,YAAY;ECFvB,UAAU,EAAE,IAAI;EAChB,aAAa,EDEN,GAAG;ECDV,UAAU,EAAE,eAAe;EAC3B,UAAU,EAAE,0CAA0C",
+"sources": ["../sass/3-modules/_box.sass","../sass/_mixins.sass"],
 "names": [],
 "file": "app.css"
 }

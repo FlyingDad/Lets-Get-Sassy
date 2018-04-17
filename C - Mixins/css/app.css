@@ -2,5 +2,13 @@
 /* BASE STYLES */
 /* LAYOUTS */
 /* MODULES */
+.box {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  background: blue;
+  border-radius: 30%;
+  box-shadow: 0 5px 10px #555;
+  background: -webkit-linear-gradient(orangered, yellow); }
 
 /*# sourceMappingURL=app.css.map */
