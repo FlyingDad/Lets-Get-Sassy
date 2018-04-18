@@ -1,7 +1,9 @@
 // BOX
 
 .box
-  background: $teal
+  +size(280px 100px)
+  background: shade($teal, 10%)
+  float: left
   color: white
   border: solid 1px shade($teal, 20%)
   box-sizing: border-box
@@ -11,3 +13,14 @@
 
   &:last-child
     margin-right: 0
+
+  &:hover
+    +animation(wow 0.5s $ease-out-quart 1)
+
++keyframes(wow)
+  0%
+    +transform(scale(1))
+  50%
+    +transform(scale(1.1) rotate(-6deg))
+  100%
+    +transform(scale(1))
